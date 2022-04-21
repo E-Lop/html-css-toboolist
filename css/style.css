@@ -26,5 +26,37 @@ header {
 
 /* main */
 main {
-  background-color: #f6f8f9;
+  background-color: #f6f7f9;
+}
+
+/* container */
+.container {
+  width: 60%;
+  margin: auto;
+  background-color: aqua;
+}
+
+/* parte superiore */
+.top-section {
+  background-color: white;
+}
+
+.btn {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.task-button {
+  background-color: #47adf1;
+  width: 70px;
+  height: 30px;
+  color: white;
+}
+
+.section-button {
+  width: 100px;
+  height: 30px;
+  color: #c6ccd1;
 }
