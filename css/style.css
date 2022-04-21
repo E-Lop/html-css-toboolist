@@ -81,8 +81,33 @@ hr {
 
 .main-list {
   margin-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 ul {
   list-style-type: none;
+  line-height: 30px;
+}
+
+.sure {
+  color: green;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  border: 1px solid;
+}
+
+.nope {
+  color: red;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  border: 1px solid;
 }
