@@ -7,7 +7,7 @@
 
 /* header */
 header {
-  background-color: blueviolet;
+  background-color: white;
   padding: 10px 30px;
 }
 
@@ -27,13 +27,15 @@ header {
 /* main */
 main {
   background-color: #f6f7f9;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 /* container */
 .container {
-  width: 60%;
+  width: 70%;
   margin: auto;
-  background-color: aqua;
+  border-radius: 5px;
 }
 
 /* parte superiore */
@@ -46,6 +48,8 @@ main {
   border-style: solid;
   border-radius: 5px;
   border-width: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .task-button {
@@ -53,10 +57,32 @@ main {
   width: 70px;
   height: 30px;
   color: white;
+  margin-left: 50px;
 }
 
 .section-button {
   width: 100px;
   height: 30px;
   color: #c6ccd1;
+}
+
+hr {
+  border-style: solid;
+  color: #f6f8f9;
+}
+
+/* parte inferiore */
+
+.bottom-section {
+  background-color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.main-list {
+  margin-left: 50px;
+}
+
+ul {
+  list-style-type: none;
 }
