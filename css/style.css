@@ -1,0 +1,30 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  background-color: blueviolet;
+  padding: 10px 30px;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.brand {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: arial;
+  font-weight: 600;
+  font-size: 37px;
+}
+
+/* main */
+main {
+  background-color: #f6f8f9;
+}
