@@ -41,6 +41,8 @@ main {
 /* parte superiore */
 .top-section {
   background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .btn {
@@ -88,6 +90,10 @@ hr {
 ul {
   list-style-type: none;
   line-height: 30px;
+}
+.high-rank {
+  font-weight: 800;
+  font-size: 20px;
 }
 
 .sure {
